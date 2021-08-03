@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+import bing from './bing.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <img src={bing} className="App-logo" alt="logo" />
+        <h1>What it do, little man?</h1>
+        <h2>What it do?</h2>
+        <h3>Looking fly, little man.</h3>
+        <h4>What it do?</h4>
+        <p>learn react</p>
+      </header>3
     </div>
   );
 }
